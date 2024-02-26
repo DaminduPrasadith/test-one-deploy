@@ -1,0 +1,26 @@
+@media  (max-width:600px) {
+      
+      #lightpto{
+        width: 30px;
+        height: 30px;
+      }
+      #bttn{
+        display: none;
+      }
+      #mainnav{
+        display: none;
+      }
+      #menuicon{
+        display: flex;
+      }
+      #mobilemenu{
+        display: flex;
+      }
+      #lighttttt{
+        display: flex;
+        position: absolute;
+        top: 1%;
+        
+      }
+    
+}

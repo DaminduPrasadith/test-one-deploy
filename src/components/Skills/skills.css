@@ -1,0 +1,121 @@
+@media (max-width:600px){
+    #skill{
+        padding-top: 200px;
+    }
+}
+
+
+
+
+
+
+h1{ 
+	font-family: sans-serif;
+}
+
+li{ 
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills{ 
+	width: 500px;
+	margin: 60px auto;
+	color: #fff;
+}
+
+.skills li{ 
+	margin: 20px 0;
+}
+
+#bar{ 
+	background-color: #0bceaf;
+	display: block;
+	height: 8px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+    position: relative;
+}
+
+ #bar span{ 
+	height: 8px;
+	float: left;
+	background-color: #01382f;
+}
+@media  (max-width: 420px){
+    .skills{
+        width: 300px;
+    }
+    
+}
+
+#html{ 
+	width: 98%;
+	animation-name: html ;
+    animation-duration: 2s;
+    background-color: #2187e7;
+
+}
+
+#css{ 
+	width: 93%;
+	background-color: #2187e7;
+    animation-name: css ;
+    animation-duration: 2s;
+}
+
+#javascript{ 
+	width: 50%;
+	background-color: #2187e7;
+    animation-name: javascript ;
+    animation-duration: 2s;
+}
+
+#jquery{ 
+	width: 30%;
+	background-color: #2187e7;
+    animation-name: jquery ;
+    animation-duration: 2s;
+}
+
+@keyframes html{
+	0%{
+		width: 0px;
+	}
+
+	100%{
+		width: 80px;
+	}
+}
+
+@keyframes css{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 93%;
+	}
+}
+
+@keyframes javascript{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes jquery{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 30%;
+	}
+}
